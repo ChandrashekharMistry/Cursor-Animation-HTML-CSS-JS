@@ -1,0 +1,64 @@
+*{
+    margin:0}
+    .container{
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:black;
+      height:100vh; cursor:none;
+    }
+    
+    .tiger,.tiger3,.jeff{
+      margin:10px;
+      filter:grayscale(50%);
+      
+    }
+    
+    .tiger{
+      margin:40px;
+        filter:grayscale(0%) brightness(85%);
+      border-radius:100%;
+      box-shadow:-27px 0px 124px #00d3da;
+        animation: shadow-color 2s ease-in-out infinite;
+    /*   background:none; */
+      width:150px;
+      height:150px;
+      background-color: rgba(255, 255, 255, 0.5);
+    
+    
+    }
+    
+    /* Define the keyframe animation */
+    @keyframes shadow-color {
+      0% {
+        box-shadow: -27px 0px 100px #00d3da;
+        
+      }
+      25% {
+        box-shadow: -24px 0px 100px #ff69b4;
+      }
+      50% {
+        box-shadow: -27px 0px 100px #ffc107;
+      }
+      75% {
+        box-shadow: -27px 0px 100px #00e676;
+      }
+      100% {
+        box-shadow: -27px 0px 100px #00d3da;
+      }
+    }
+    
+    .tiger{
+      position: absolute;
+    
+    }
+    
+    .tiger:hover{
+       background: url('https://images.pexels.com/photos/357783/pexels-photo-357783.jpeg?auto=compress&cs=tinysrgb&w=600') center top no-repeat;
+      background-size: 350px;
+      background:100%;
+      border-radius:30px
+    
+    }
+    
+    
